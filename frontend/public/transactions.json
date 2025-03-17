@@ -1,0 +1,74 @@
+[
+  {
+    "product_id": 1,
+    "product_name": "Gaming Laptop",
+    "quantity": 1,
+    "sale_date": "2025-03-06",
+    "sale_price": 1800,
+    "user_id": 1
+  },
+  {
+    "product_id": 2,
+    "product_name": "Mechanical Keyboard",
+    "quantity": 2,
+    "sale_date": "2025-03-07",
+    "sale_price": 240,
+    "user_id": 1
+  },
+  {
+    "product_id": 3,
+    "product_name": "Wireless Mouse",
+    "quantity": 3,
+    "sale_date": "2025-03-08",
+    "sale_price": 135,
+    "user_id": 1
+  },
+  {
+    "product_id": 4,
+    "product_name": "Gaming Monitor",
+    "quantity": 1,
+    "sale_date": "2025-03-09",
+    "sale_price": 350,
+    "user_id": 1
+  },
+  {
+    "product_id": 5,
+    "product_name": "SSD 1TB",
+    "quantity": 4,
+    "sale_date": "2025-03-10",
+    "sale_price": 600,
+    "user_id": 1
+  },
+  {
+    "product_id": 6,
+    "product_name": "Graphics Card RTX 4070",
+    "quantity": 1,
+    "sale_date": "2025-03-11",
+    "sale_price": 700,
+    "user_id": 1
+  },
+  {
+    "product_id": 2,
+    "product_name": "Mechanical Keyboard",
+    "quantity": 1,
+    "sale_date": "2025-03-12",
+    "sale_price": 120,
+    "user_id": 1
+  },
+  {
+    "product_id": 3,
+    "product_name": "Wireless Mouse",
+    "quantity": 2,
+    "sale_date": "2025-03-13",
+    "sale_price": 90,
+    "user_id": 1
+  },
+  {
+    "product_id": 5,
+    "product_name": "SSD 1TB",
+    "quantity": 1,
+    "sale_date": "2025-03-14",
+    "sale_price": 150,
+    "user_id": 1
+  }
+]

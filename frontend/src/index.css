@@ -1,0 +1,151 @@
+@import "tailwindcss";
+
+html, body {
+    font-family: "Space Grotesk", 'Roboto', sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background: #0a0a0a;
+    color: #f3f4f6;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+@layer utilities {
+    @keyframes blink {
+        0%, 100% {
+            opacity: 1;
+        }
+        50% {
+            opacity: 0;
+        }
+    }
+
+    .animate-blink {
+        animation: blink 0.8s step-end infinite;
+    }
+
+    @keyframes loading {
+        0% {
+            transform: translateX(-100%);
+        }
+        100% {
+            transform: translateX(250%);
+        }
+    }
+
+    .animate-loading-bar {
+        animation: loading 0.8s ease infinite;
+    }
+}
+
+/* *******| Home page Blinking | for text type animation |***** */
+.blinking-cursor {
+    font-weight: 100;
+    color: #fff;
+    -webkit-animation: 1s blinkh step-end infinite;
+    -moz-animation: 1s blinkh step-end infinite;
+    -ms-animation: 1s blinkh step-end infinite;
+    -o-animation: 1s blinkh step-end infinite;
+    animation: 1s blinkh step-end infinite;
+}
+
+@keyframes blinkh {
+    from, to {
+        color: transparent;
+    }
+    50% {
+        color: white;
+    }
+}
+
+@keyframes fade-in-up {
+    0% { opacity: 0; transform: translateY(20px); }
+    100% { opacity: 1; transform: translateY(0); }
+}
+
+@keyframes slide-in-left {
+    0% { opacity: 0; transform: translateX(-20px); }
+    100% { opacity: 1; transform: translateX(0); }
+}
+
+@keyframes slide-in-right {
+    0% { opacity: 0; transform: translateX(20px); }
+    100% { opacity: 1; transform: translateX(0); }
+}
+
+.animate-fade-in-up {
+    animation: fade-in-up 0.6s ease-out forwards;
+}
+
+.animate-slide-in-left {
+    animation: slide-in-left 0.6s ease-out forwards;
+}
+
+.animate-slide-in-right {
+    animation: slide-in-right 0.6s ease-out forwards;
+}
+
+.delay-100 {
+    animation-delay: 100ms;
+}
+
+/* ********************************* */
+
+@keyframes slide-in {
+    0% {
+        transform: translateX(120%);
+        opacity: 0;
+    }
+    100% {
+        transform: translateX(0);
+        opacity: 1;
+    }
+}
+
+.animate-slide-in {
+    margin-top: 50px;
+    animation: slide-in 0.3s cubic-bezier(0.22, 0.61, 0.36, 1) both;
+}
+
+/* ***********| Contact | ****** */
+
+.custom-scrollbar::-webkit-scrollbar {
+    width: 8px;
+    height: 4px; 
+}
+
+.custom-scrollbar::-webkit-scrollbar-track {
+    background: #1e1e1e; 
+    border-radius: 10px;
+}
+
+.custom-scrollbar::-webkit-scrollbar-thumb {
+    background: #4a5568; 
+    border-radius: 10px;
+    border: 2px solid #2d3748; 
+}
+
+.custom-scrollbar::-webkit-scrollbar-thumb:hover {
+    background: #718096; 
+}
+
+@media (max-width: 768px) {
+    .custom-scrollbar::-webkit-scrollbar {
+        display: none;
+    }
+}
+
+
+
+
+
+@keyframes fade-in {
+    from { opacity: 0; transform: translate(-50%, 10px); }
+    to { opacity: 1; transform: translate(-50%, 0); }
+}
+.animate-fade-in {
+    animation: fade-in 0.3s ease-out;
+}

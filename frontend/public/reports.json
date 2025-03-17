@@ -1,0 +1,12 @@
+[
+    {"description": "Laptop Repair", "amount": 120.00, "date": "2025-03-01", "category": "Maintenance", "user_id": 1},
+    {"description": "Office Rent", "amount": 1500.00, "date": "2025-03-02", "category": "Utilities", "user_id": 1},
+    {"description": "Internet Bill", "amount": 80.00, "date": "2025-03-03", "category": "Utilities", "user_id": 1},
+    {"description": "Electricity Bill", "amount": 200.00, "date": "2025-03-04", "category": "Utilities", "user_id": 1},
+    {"description": "Software Subscription", "amount": 50.00, "date": "2025-03-05", "category": "Software", "user_id": 1},
+    {"description": "Computer Accessories Purchase", "amount": 300.00, "date": "2025-03-06", "category": "Inventory", "user_id": 1},
+    {"description": "Security System Upgrade", "amount": 450.00, "date": "2025-03-07", "category": "Security", "user_id": 1},
+    {"description": "Marketing Ads", "amount": 250.00, "date": "2025-03-08", "category": "Advertising", "user_id": 1},
+    {"description": "Employee Salary", "amount": 2000.00, "date": "2025-03-09", "category": "Salary", "user_id": 1},
+    {"description": "Printer Toner Refill", "amount": 60.00, "date": "2025-03-10", "category": "Maintenance", "user_id": 1}
+  ]

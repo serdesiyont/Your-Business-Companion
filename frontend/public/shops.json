@@ -1,0 +1,33 @@
+[
+  {
+    "shopID": 1,
+    "shopName": "Shop A",
+    "location": "Location A",
+    "registrationDate": "2023-01-01",
+    "category": "Retail",
+    "totalIncome": 5000,
+    "totalExpenses": 2000,
+    "netProfit": 3000
+  },
+  {
+    "shopID": 2,
+    "shopName": "Shop B",
+    "location": "Location B",
+    "registrationDate": "2023-01-01",
+    "category": "Retail",
+    "totalIncome": 5000,
+    "totalExpenses": 2000,
+    "netProfit": 3000
+  },
+  {
+    "shopID": 3,
+    "shopName": "Shop C",
+    "location": "Location C",
+    "registrationDate": "2023-01-01",
+    "category": "Retail",
+    "totalIncome": 5000,
+    "totalExpenses": 2000,
+    "netProfit": 3000
+  }
+  
+]
