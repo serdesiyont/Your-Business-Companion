@@ -1,53 +1,93 @@
-![SuperAgentLogoWhite](https://github.com/user-attachments/assets/b7e44dc8-90a5-4b1e-a341-9cdb68b9b585)
+# Installation Guide for Your-Business-Companion
 
-# Super Ai-Agent
+Your-Business-Companion is a powerful AI-driven business assistant built using React and Vite. Follow this guide to install and set up the project.
 
-React + Vite
+## Prerequisites
+Before installing, ensure you have the following installed on your system:
+- **Node.js** (version 16 or later) – [Download here](https://nodejs.org/)
+- **npm** or **yarn** (comes with Node.js)
+- **Git** (optional, for cloning the repository) – [Download here](https://git-scm.com/)
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+## Installation Steps
 
-Currently, two official plugins are available:
+### 1. Clone the Repository
+If you haven’t already, clone the repository from GitHub:
+```sh
+git clone https://github.com/your-username/your-business-companion.git
+cd your-business-companion
+```
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+### 2. Install Dependencies
+Run the following command to install the required packages:
+```sh
+npm install
+```
+Or if using **yarn**:
+```sh
+yarn install
+```
 
-## Home Page
-![image](https://github.com/user-attachments/assets/8cd5d23c-d732-4a36-9fe1-39e08851fc8e)
+### 3. Start the Development Server
+To start the local development server, run:
+```sh
+npm run dev
+```
+Or with **yarn**:
+```sh
+yarn dev
+```
+This will start the app, and you can access it at **[http://localhost:5173/](http://localhost:5173/)** (default Vite port).
 
-## Features
-![image](https://github.com/user-attachments/assets/7856b53e-2b2f-4ca8-a9f8-07b5daef6c1f)
+### 4. Build for Production
+To create an optimized production build, run:
+```sh
+npm run build
+```
+Or with **yarn**:
+```sh
+yarn build
+```
+The built files will be available in the `dist` directory.
 
-## About
-![image](https://github.com/user-attachments/assets/089fbe97-7675-45bf-8e7b-24d86175a7b4)
+### 5. Preview the Build (Optional)
+To test the production build locally:
+```sh
+npm run preview
+```
+Or with **yarn**:
+```sh
+yarn preview
+```
+This will start a local server to preview the built project.
 
-## Contact
-![image](https://github.com/user-attachments/assets/825e3df2-b1c7-454f-ad91-e83c0d88a3f6)
+## Environment Variables (Optional)
+If the project requires environment variables, create a `.env` file in the root directory and add necessary configurations, for example:
+```sh
+VITE_API_URL=https://your-api-endpoint.com
+VITE_OTHER_CONFIG=value
+```
 
-## Login
-![image](https://github.com/user-attachments/assets/a4c2a12a-a73b-4e20-8c79-80a5f20b65dd)
+## Deployment
+To deploy Your-Business-Companion, you can use platforms like:
+- **Vercel**: `vercel deploy`
+- **Netlify**: Drag and drop the `dist` folder or use the CLI
+- **GitHub Pages** (with additional configurations)
 
-## Sign Up
-![image](https://github.com/user-attachments/assets/e569d9af-74c6-4033-b5ec-690addd70943)
+## Troubleshooting
+If you encounter any issues:
+- Ensure all dependencies are installed properly
+- Delete `node_modules` and `package-lock.json` or `yarn.lock`, then reinstall:
+  ```sh
+  rm -rf node_modules package-lock.json && npm install
+  ```
+- Check logs for specific errors using:
+  ```sh
+  npm run dev -- --debug
+  ```
+- Ensure the correct Node.js version is installed
 
-## User Dashboard (Overview)
-![image](https://github.com/user-attachments/assets/b51f037e-a30f-4e21-806f-866d2fbd43d8)
+For further assistance, refer to the official [Vite documentation](https://vitejs.dev/).
 
-## User Dashboard (Shops)
-![image](https://github.com/user-attachments/assets/ffa5e3ad-8e44-47a2-8e78-d405d36922a2)
-
-## User Dashboard (Taxes)
-![image](https://github.com/user-attachments/assets/ba08fbfe-e853-4493-af41-e0e43041b0b4)
-
-## User Dashboard (Reports)
-![image](https://github.com/user-attachments/assets/836a0e66-f4ca-44f9-a64c-48c5040eac3a)
-
-## User Dashboard (Transactions)
-![image](https://github.com/user-attachments/assets/3b024a49-0f07-49cf-9e60-1f23ac9687b9)
-
-## User Dashboard (Products)
-![image](https://github.com/user-attachments/assets/c36f633f-b3ae-4d34-9a96-84deb812d468)
-
-## Footer
-![image](https://github.com/user-attachments/assets/03cb312f-799c-435a-bd2a-f2373fb7e351)
-
+---
+Your-Business-Companion is now set up and ready to use! 🚀
 
