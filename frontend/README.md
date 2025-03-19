@@ -13,7 +13,7 @@ Before installing, ensure you have the following installed on your system:
 ### 1. Clone the Repository
 If you haven’t already, clone the repository from GitHub:
 ```sh
-git clone https://github.com/your-username/your-business-companion.git
+git clone git@github.com:serdesiyont/Your-Business-Companion.git
 cd your-business-companion
 ```
 
