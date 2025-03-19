@@ -1,6 +1,8 @@
-# supet_agent_backend
 
-# supet_agent_backend
+![SuperAgentLogoWhite](https://github.com/user-attachments/assets/b7e44dc8-90a5-4b1e-a341-9cdb68b9b585)
+
+# Your-Business-Companion
+# Backend Installation Procidure
 
 ## Getting Started
 
