@@ -14,7 +14,8 @@ Before installing, ensure you have the following installed on your system:
 If you haven’t already, clone the repository from GitHub:
 ```sh
 git clone git@github.com:serdesiyont/Your-Business-Companion.git
-cd your-business-companion
+cd Your-Business-Companion
+cd frontend
 ```
 
 ### 2. Install Dependencies
