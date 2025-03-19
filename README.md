@@ -1,9 +1,7 @@
-# Your-Business-Companion
-
 
 ![SuperAgentLogoWhite](https://github.com/user-attachments/assets/b7e44dc8-90a5-4b1e-a341-9cdb68b9b585)
 
-# Super Ai-Agent
+# Your-Business-Companion
 
 Your-Business-Companion is an AI-powered business assistant designed to help small, medium, and large companies efficiently manage their products, profits, and operations. It automates key business tasks, including inventory tracking, financial analysis, and strategic decision-making. With advanced data processing capabilities, it generates detailed reports from CSV files and provides predictive insights to help businesses optimize performance and maximize growth. Whether you need profit forecasting, product trend analysis, or streamlined business management, Your-Business-Companion is your go-to AI partner.
 
