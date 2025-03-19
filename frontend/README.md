@@ -1,3 +1,7 @@
+
+![SuperAgentLogoWhite](https://github.com/user-attachments/assets/b7e44dc8-90a5-4b1e-a341-9cdb68b9b585)
+
+# Your-Business-Companion
 # Installation Guide for Your-Business-Companion
 
 Your-Business-Companion is a powerful AI-driven business assistant built using React and Vite. Follow this guide to install and set up the project.
