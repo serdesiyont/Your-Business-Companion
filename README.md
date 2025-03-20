@@ -12,6 +12,10 @@ Your-Business-Companion is an AI-powered business assistant designed to help sma
 ## Features
 ![image](https://github.com/user-attachments/assets/7856b53e-2b2f-4ca8-a9f8-07b5daef6c1f)
 
+## AI Chat
+
+![image](https://github.com/user-attachments/assets/2697a0d8-fe5d-4ae5-b37c-d91a074962cb)
+
 ## Try Super
 ![image](https://github.com/user-attachments/assets/67e51b85-7692-4838-a6b2-a0aad973317f)
 
